@@ -9,6 +9,7 @@ faces = face_cascade.detectMultiScale(
     minNeighbors= 3,
     minSize=(10, 10)
 )
+
 faces_detected = "Лиц обнаружено: " + format(len(faces))
 print(faces_detected)
 # Рисуем квадраты вокруг лиц
